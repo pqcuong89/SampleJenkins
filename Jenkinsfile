@@ -8,6 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
+                bat "echo Ok"
             }
         }
     }
